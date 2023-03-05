@@ -1,5 +1,3 @@
-<p align="center"> 
-  <img src="image\email.jpg" alt="Email Logo.png" width="280px" height="160px">
 </p>
 <h1 align="center"> Email Campaign Effectiveness Prediction </h1>
 <h3 align="center"> AlmaBetter Verified Project - <a href="https://www.almabetter.com/"> AlmaBetter School </a> </h5>
@@ -32,12 +30,11 @@ The work here characterizes and predicts the emails if they are going to be igno
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-<h2> :book: XG Boost</h2>
+<h2> :book: XGBoost</h2>
 
 <p>Extreme Gradient Boosting is abbreviated as XgBoost. It is a classification and regression technique that uses the Boosting Ensemble Learning Technique. Boosting is an ensemble modeling strategy that aims to create a strong classifier from a collection of weak ones. It's done by stringing together weak models to create a model. To begin, a model is created using the training data. The second model is then created, which attempts to correct the faults in the previous model. This approach is repeated until either the entire training data set is properly predicted or the maximum number of models has been added. Here is a representation of Boosting.
 
 
-<img src="image/boosting.png" alt="XG Boost" style="max-width:60%;"></p>
 
 <p>In XGBoost, weights are very significant. All of the independent variables are given weights, which are subsequently fed into the decision tree, which predicts outcomes. The weight of factors that the tree predicted incorrectly is increased, and these variables are fed into the second decision tree. Individual classifiers/predictors are then combined to form a more powerful and precise model. It can be used to solve problems including regression, classification, ranking, and user-defined prediction.</p>
 
@@ -51,9 +48,6 @@ The work here characterizes and predicts the emails if they are going to be igno
 
 <p>The more the words in an email, the more it has a tendency it has to get ignored. Too lengthy emails are getting ignored.</p>
 
-<img src="image/campaign.png" alt="Campaign Results" style="max-width:40%;">
- <img src="image/pastcomm.png" alt="Past Comm" style="max-width:40%;">
-<img src="image/wordcount.png" alt="Word Count" style="max-width:40%;"> 
 
 <h2> :chart_with_upwards_trend: Results</h2>
 <p> Imbalanced Class Handling techniques such as Undersampling and SMOTE were done after train-test split only on the training data, to make sure that the model doesn't catch up to the test set at all and it remains unknown which somewhat reduced our results.</p>
@@ -63,7 +57,6 @@ The work here characterizes and predicts the emails if they are going to be igno
 <p>Decision Tree Model is overfitting. It is working really great on train data and worse on test data.</p>
 <p>XGBoost Algorithm worked in the best way possible with such imbalanced data with outliers with F1 Score of 0.77 on the test set.</p>
 
-<img src="image/result.png" alt=" Results" style="max-width:70%;">
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
